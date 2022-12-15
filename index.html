@@ -1,0 +1,740 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>karma shop</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/css.css">
+  </head>
+  <style>
+    .loader{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    animation: spin 1.2s linear infinite;
+}
+.loader::after,
+.loader::before{
+    position: absolute;
+    content: '';
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
+    box-shadow: 18px 18px red, -18px -18px blue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: load 1.2s linear infinite;
+
+}
+.loader::after{
+    box-shadow: 18px 18px green, -18px -18px black;
+    transform: translate(-50%, -50%) rotate(90deg);
+
+}
+@keyframes load{
+    50%{height: 46px;
+    }
+}
+@keyframes spin{
+    100%{transform: rotate(360deg);
+    }
+}
+  </style>
+  <body>
+    <div class="loader"></div>
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Modal Header</h4>
+          </div>
+          <div class="modal-body">
+            <p>Some text in the modal.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+    <section class="aa">
+    <div class="container cc p-0">
+    <nav class="navbar navbar-expand-md navbar-dark bg-light ">
+
+    <a class="navbar-brand" href="#">
+      <img class="logo horizontal-logo" src="C:\Users\hp\Desktop\karma shop\assets\image\karma.jpeg" alt="forecastr logo">
+    </a>
+    <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Shop
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+            <a class="dropdown-item" href="#">SHOP CATEGORY</a>
+            <a class="dropdown-item" href="#">PRODUCT DETAILS</a>
+            <a class="dropdown-item" href="#">PRODUCT CHECKOUT</a>
+            <a class="dropdown-item" href="#">SHOPPING CART</a>
+            <a class="dropdown-item" href="#">CONFIRMATION</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Blog
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+            <a class="dropdown-item" href="#">BLOG</a>
+            <a class="dropdown-item" href="#">BLOG DETAILS</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Page
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+              <a class="dropdown-item" href="#">LOGIN</a>
+              <a class="dropdown-item" href="#">TRACKING</a>
+              <a class="dropdown-item" href="#">ELEMENTS</a>
+            </div>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+</nav>
+</div>
+
+<div class="container">
+    <div class="col-md-12">
+        <div class="row">
+    <div class="col-md-5 mt-5">
+        <h1 class="display-4"><b>Nike new Collection !</b></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum odio ipsum quibusdam ea suscipit nam ab perspiciatis
+             distinctio dolore vero voluptates esse id error dignissimos minus ipsa, nihil sed delectus?</p>
+             <div class="aad-bag d-flex align-items-center">
+              <button type="button" class="btn">
+              <span class="lnr lnr-cross"></span></button>
+              <span class="add-text text-uppercase ml-3"><b>aad to bag</b></span>
+             </div>
+              
+    </div> 
+    <!-- <div class="col-md-7 mt-5">
+      <img class="img" src="C:\Users\hp\Desktop\karma shop\assets\image\banner-img.png">
+
+    </div> -->
+    
+    
+
+    </div>
+</div>
+</div>
+</section>
+
+
+
+
+<div class="container mt-5 dd">
+  <div class="row p-5">
+<div class="col-lg-3 col-md-6 col-sm-6 text-center">
+  <img class="f-icon1" src="C:\Users\hp\Desktop\karma shop\assets\image\f-icon1.png">
+  <h6>Free Delivery</h6>
+  <h6 style="color: gray;">Free Shipping on all order</h6>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+    <img class="f-icon1" src="C:\Users\hp\Desktop\karma shop\assets\image\f-icon2.png">
+    <h6>Return Policy</h6>
+    <h6 style="color: gray;">Free Shipping on all order</h6>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+      <img class="f-icon1" src="C:\Users\hp\Desktop\karma shop\assets\image\f-icon3.png">
+      <h6>24/7 Support</h6>
+      <h6 style="color: gray;">Free Shipping on all order</h6>
+      </div>
+      <div  class="col-lg-3 col-md-6 col-sm-6 text-center">
+        <img class="f-icon1" src="C:\Users\hp\Desktop\karma shop\assets\image\f-icon4.png">
+        <h6>Secure Payment</h6>
+        <h6 style="color: gray;">Free Shipping on all order</h6>
+        </div>
+</div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-8">
+      <div class="row">
+        <div class="col-lg-7 col-md-8 photo">
+          <div class="content">
+              <a href="#">
+                <div class="content-overlay"></div>
+                  <img class="content-image" src="C:\Users\hp\Desktop\karma shop\assets\image\c1.jpg">
+                <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">SHEAKER FOR SPORTS</h3>
+                </div>
+              </a> 
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-4 photo-1">
+          <div class="content">
+            <a href="#">
+              <div class="content-overlay"></div>
+                <img class="content-image-1" src="C:\Users\hp\Desktop\karma shop\assets\image\c2.jpg">
+              <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">SHEAKER FOR SPORTS</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-5 col-md-4 photo-2">
+          <div class="content">
+            <a href="#">
+              <div class="content-overlay"></div>
+                <img class="content-image-1" src="C:\Users\hp\Desktop\karma shop\assets\image\c3.jpg">
+              <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">SHEAKER FOR SPORTS</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-8 photo-3">
+          <div class="content">
+              <a href="#">
+                <div class="content-overlay"></div>
+                  <img class="content-image" src="C:\Users\hp\Desktop\karma shop\assets\image\c4.jpg">
+                <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">SHEAKER FOR SPORTS</h3>
+                </div>
+              </a> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-4">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 photo-4">
+          <div class="content">
+            <a href="#">
+              <div class="content-overlay"></div>
+              <img class="content-image-4" src="C:\Users\hp\Desktop\karma shop\assets\image\c5.jpg">
+              <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">SHEAKER FOR SPORTS</h3> 
+              </div>
+            </a> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="col-md-12 ttttt text-center mt-5">
+    <h1 class="">Latest Products</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Tempore aspernatur<br> quaerat iusto quae quis temporibus?</p>
+  
+  </div>
+</div>
+
+
+
+<section class="my-5">
+	<div class="container">
+	<div class="col-xl-12">
+	</div>
+	
+		<div id="carouselFourColumn" class="carousel slide" data-ride="carousel">
+		  <!-- <ol class="carousel-indicators">
+			<li data-target="#carouselFourColumn" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselFourColumn" data-slide-to="1"></li>
+			<li data-target="#carouselFourColumn" data-slide-to="2"></li>
+		  </ol> -->
+		  <div class="carousel-inner">
+			<div class="carousel-item active">
+				<div class="row">
+				  <div class="col-xl-3 p-1">				
+					<div class="card">
+					  <img src="C:\Users\hp\Desktop\karma shop\assets\image\p1.jpg" class="w-100">
+					  <div class="card-body">
+						<h6 class="card-title">ADDIDAS NEW HAMMER SOLE FOR SPORTS PERSON</h6>
+						<p class="card-text">$155.00</p>
+            <div class="btn">
+              <div class="icon"><i class="fab fa-facebook-f"></i></div>
+              <p class="hover-text">aad to bag</p>
+            </div>
+					  </div>
+					</div>
+				  </div>
+				  <div class="col-xl-3 p-1">				
+						<div class="card">
+              <img src="C:\Users\hp\Desktop\karma shop\assets\image\p2.jpg" class="w-100">
+              <div class="card-body">
+              <h6 class="card-title">ADDIDAS NEW HAMMER SOLE FOR SPORTS PERSON</h6>
+              <p class="card-text">$155.00</p>
+               <div class="btn"><i class="fab fa-facebook-f"></i>
+                <div class="icon"><i class="fab fa-facebook-f"></i></div>
+                <p class="hover-text">aad to bag</p>
+              </div>
+               
+              </div>
+            </div>
+				  </div>
+				  <div class="col-xl-3 p-1">				
+						<div class="card">
+              <img src="C:\Users\hp\Desktop\karma shop\assets\image\p3.jpg" class="w-100">
+              <div class="card-body">
+              <h6 class="card-title">ADDIDAS NEW HAMMER SOLE FOR SPORTS PERSON</h6>
+              <p class="card-text">$155.00</p>
+              <div class="btn"><i class="fab fa-facebook-f"></i>
+                <div class="icon"><i class="fab fa-facebook-f"></i></div>
+                <p class="hover-text">aad to bag</p>
+              </div>
+              </div>
+            </div>
+				  </div>
+				  <div class="col-xl-3 p-1">				
+						<div class="card">
+              <img src="C:\Users\hp\Desktop\karma shop\assets\image\p4.jpg" class="w-100">
+              <div class="card-body">
+              <h6 class="card-title">ADDIDAS NEW HAMMER SOLE FOR SPORTS PERSON</h6>
+              <p class="card-text">$155.00</p>
+              <div class="btn"><i class="fab fa-facebook-f"></i>
+                <div class="icon"><i class="fab fa-facebook-f"></i></div>
+                <p class="hover-text">aad to bag</p>
+              </div>
+              </div>
+            </div>
+				  </div>
+				</div>
+			</div>
+			<div class="carousel-item">
+			 <div class="row">
+				  <div class="col-xl-3 p-1">				
+						<div class="card">
+              <img src="C:\Users\hp\Desktop\karma shop\assets\image\p6.jpg" class="w-100">
+              <div class="card-body">
+              <h6 class="card-title">ADDIDAS NEW HAMMER SOLE FOR SPORTS PERSON</h6>
+              <p class="card-text">$155.00</p>
+              <div class="btn"><i class="fab fa-facebook-f"></i>
+                <div class="icon"><i class="fab fa-facebook-f"></i></div>
+                <p class="hover-text">aad to bag</p>
+              </div>
+              </div>
+            </div>
+				  </div>
+				  <div class="col-xl-3 p-1">				
+						<div class="card">
+              <img src="C:\Users\hp\Desktop\karma shop\assets\image\p6.jpg" class="w-100">
+              <div class="card-body">
+              <h6 class="card-title">ADDIDAS NEW HAMMER SOLE FOR SPORTS PERSON</h6>
+              <p class="card-text">$155.00</p>
+              <div class="btn"><i class="fab fa-facebook-f"></i>
+                <div class="icon"><i class="fab fa-facebook-f"></i></div>
+                <p class="hover-text">aad to bag</p>
+              </div>
+              </div>
+            </div>
+				  </div>
+				  <div class="col-xl-3 p-1">				
+						<div class="card">
+              <img src="C:\Users\hp\Desktop\karma shop\assets\image\p7.jpg" class="w-100">
+              <div class="card-body">
+              <h6 class="card-title">ADDIDAS NEW HAMMER SOLE FOR SPORTS PERSON</h6>
+              <p class="card-text">$155.00</p>
+              <div class="btn"><i class="fab fa-facebook-f"></i>
+                <div class="icon"><i class="fab fa-facebook-f"></i></div>
+                <p class="hover-text">aad to bag</p>
+              </div>
+              </div>
+            </div>
+				  </div>
+				  <div class="col-xl-3 p-1">				
+						<div class="card">
+              <img src="C:\Users\hp\Desktop\karma shop\assets\image\p8.jpg" class="w-100">
+              <div class="card-body">
+              <h6 class="card-title">ADDIDAS NEW HAMMER SOLE FOR SPORTS PERSON</h6>
+              <p class="card-text">$155.00</p>
+              <div class="btn"><i class="fab fa-facebook-f"></i>
+                <div class="icon"><i class="fab fa-facebook-f"></i></div>
+                <p class="hover-text">aad to bag</p>
+              </div>
+              </div>
+            </div>
+				  </div>
+				</div>
+			</div>
+			<div class="carousel-item">
+			<div class="row">
+				  <div class="col-xl-3 p-1">				
+						<div class="card">
+					  <img src="C:\Users\hp\Desktop\karma shop\assets\image\p1.jpg" class="w-100">
+					  <div class="card-body">
+						<h6 class="card-title">ADDIDAS NEW HAMMER SOLE FOR SPORTS PERSON</h6>
+						<p class="card-text">$155.00</p>
+            <div class="btn"><i class="fab fa-facebook-f"></i>
+              <div class="icon"><i class="fab fa-facebook-f"></i></div>
+              <p class="hover-text">aad to bag</p>
+            </div>
+					  </div>
+					</div>
+				  </div>
+				  <div class="col-xl-3 p-1">				
+            <div class="card">
+              <img src="C:\Users\hp\Desktop\karma shop\assets\image\p1.jpg" class="w-100">
+              <div class="card-body">
+              <h6 class="card-title">ADDIDAS NEW HAMMER SOLE FOR SPORTS PERSON</h6>
+              <p class="card-text">$155.00</p>
+              <div class="btn"><i class="fab fa-facebook-f"></i>
+                <div class="icon"><i class="fab fa-facebook-f"></i></div>
+                <p class="hover-text">aad to bag</p>
+              </div>
+              </div>
+            </div>
+				  </div>
+				  <div class="col-xl-3 p-1">				
+						<div class="card">
+              <img src="C:\Users\hp\Desktop\karma shop\assets\image\p1.jpg" class="w-100">
+              <div class="card-body">
+              <h6 class="card-title">ADDIDAS NEW HAMMER SOLE FOR SPORTS PERSON</h6>
+              <p class="card-text">$155.00</p>
+              <div class="btn"><i class="fab fa-facebook-f"></i>
+                <div class="icon"><i class="fab fa-facebook-f"></i></div>
+                <p class="hover-text">aad to bag</p>
+              </div>
+              </div>
+            </div>
+				  </div>
+				  <div class="col-xl-3 p-1">				
+						<div class="card">
+              <img src="C:\Users\hp\Desktop\karma shop\assets\image\p1.jpg" class="w-100">
+              <div class="card-body">
+              <h6 class="card-title">ADDIDAS NEW HAMMER SOLE FOR SPORTS PERSON</h6>
+              <p class="card-text">$155.00</p>
+              <div class="btn"><i class="fab fa-facebook-f"></i>
+                <div class="icon"><i class="fab fa-facebook-f"></i></div>
+                <p class="hover-text">aad to bag</p>
+              </div>
+              </div>
+            </div>
+				  </div>
+				</div>
+			</div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselFourColumn" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselFourColumn" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		  </a>
+		</div>
+		</div>	
+	</section>
+
+  <div class="container-fluid p-0 overflow-hidden">
+    <div class="row">
+      <div class="col-md-6"> 
+        <div class="back">
+          <div class="text">
+              <h3><b>Exclusive Hot Deal Ends Soon!</b></h3>
+              <p>Who are in extremely love with eco friendly system.</p>
+
+              
+                <div id="countdown down">
+                  <ul>
+                    <li><span id="days"></span>days</li>
+                    <li><span id="hours"></span>Hours</li>
+                    <li><span id="minutes"></span>Minutes</li>
+                    <li><span id="seconds"></span>Seconds</li>
+                  </ul>
+                </div>
+
+              
+              
+           </div>
+        </div>
+
+      </div>
+        <div class="col-md-6 ab">
+          
+         
+        <div id="bs4-slide-carousel" class="carousel slide" data-ride="carousel" >
+          <div class="carousel-inner">
+            <div class="carousel-item active liner">
+              <img class="d-block w-50" src="C:\Users\hp\Desktop\karma shop\assets\image\e-p1.png" alt="Slide One">
+              <div class=" mr-5 mt-5">
+                <h6>$130.00 </h6>
+              <p>ADDIDAS NEW HAMMER SOIL FOR SPORTS PERSON</p>
+              </div>
+              <div class="aad-bag d-flex align-items-center lp">
+                <button type="button" class="bttn">
+                <span class="lnr lnr-cross"></span></button>
+                <span class="add-text text-uppercase ml-3"><b>aad to bag</b></span>
+               </div>
+              
+            </div>
+            <div class="carousel-item liner">
+              <img class="d-block w-50" src="C:\Users\hp\Desktop\karma shop\assets\image\e-p1.png" alt="Slide Two">
+              <div class=" mr-5 mt-5">
+                <h6>$130.00 </h6>
+              <p>ADDIDAS NEW HAMMER SOIL FOR SPORTS PERSON</p>
+              </div>
+              <div class="aad-bag d-flex align-items-center">
+                <button type="button" class="bttn">
+                <span class="lnr lnr-cross"></span></button>
+                <span class="add-text text-uppercase ml-3"><b>aad to bag</b></span>
+               </div>
+              
+                
+            </div>
+            <div class="carousel-item liner">
+              <img class="d-block w-50" src="C:\Users\hp\Desktop\karma shop\assets\image\e-p1.png" alt="Slide Three">
+              <div class=" mr-5 mt-5">
+                <h6>$130.00</h6>
+              <p>ADDIDAS NEW HAMMER SOIL FOR SPORTS PERSON</p>
+              </div>
+              <div class="aad-bag d-flex align-items-center">
+                <button type="button" class="bttn">
+                <span class="lnr lnr-cross"></span></button>
+                <span class="add-text text-uppercase ml-3"><b>aad to bag</b></span>
+               </div>
+                
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#bs4-slide-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#bs4-slide-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"> <span class="sr-only">Next</span></span>
+            <span class="sr-only">Next</span>
+          </a>  
+        </div>
+       
+        
+        
+        </div>
+        
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="col-md-12 mt-5 pt-5">
+      <div class="row">
+      <div class="col-md-3 col-sm-6 ss">
+          <img class="img-fluid d-block mx-auto" src="C:\Users\hp\Desktop\karma shop\assets\image\1.png">
+        </div>
+        <div class="col-md-3 col-sm-6 ss">
+          <img class="img-fluid d-block mx-auto" src="C:\Users\hp\Desktop\karma shop\assets\image\2.png">
+        </div>
+        <div class="col-md-3 col-sm-6 ss">
+          <img class="img-fluid d-block mx-auto" src="C:\Users\hp\Desktop\karma shop\assets\image\3.png">
+        </div>
+        <div class="col-md-3 col-sm-6 ss">
+          <img class="img-fluid d-block mx-auto" src="C:\Users\hp\Desktop\karma shop\assets\image\4.png">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="col-md-12 text-center mt-5 pt-5">
+      <h1>Deals of the Week</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+        tempor<p>incididunt ut labore et dolore magna aliqua.</p></p>
+    </div>
+  </div>
+
+  <div class="container">
+      <div class="row">
+        <div class="col-md-9 row lo">
+        <div class="col-md-4 d-flex p-0">
+          <img  src="C:\Users\hp\Desktop\karma shop\assets\image\r1.jpg">
+        <div>
+          <h6 class="mx-3 mt-3 lace">BLACK LACE HEEL</h6>
+            <h6 class="text-dark mx-4">$189.00 <del><span class="text-info">$210.00</span></del></h6>
+            </div>
+        </div>
+        <div class="col-md-4 d-flex p-0">
+          <img  src="C:\Users\hp\Desktop\karma shop\assets\image\r2.jpg">
+          <div>
+          <h6 class="mx-3 mt-3 lace">BLACK LACE HEEL</h6>
+            <h6 class="text-dark mx-4">$189.00 <del><span class="text-info">$210.00</span></del></h6>
+            </div>
+        </div>
+        <div class="col-md-4 d-flex p-0">
+          <img  src="C:\Users\hp\Desktop\karma shop\assets\image\r3.jpg">
+          <div>
+          <h6 class="mx-3 mt-3 lace">BLACK LACE HEEL</h6>
+            <h6 class="text-dark mx-4">$189.00 <del><span class="text-info">$210.00</span></del></h6>
+            </div>
+        </div>
+        <div class="col-md-4 d-flex mt-3 p-0">
+          <img  src="C:\Users\hp\Desktop\karma shop\assets\image\r5.jpg">
+          <div>
+          <h6 class="mx-3 mt-3 lace">BLACK LACE HEEL</h6>
+            <h6 class="text-dark mx-4">$189.00 <del><span class="text-info">$210.00</span></del></h6>
+            </div>
+        </div>
+        <div class="col-md-4 d-flex mt-3 p-0">
+          <img  src="C:\Users\hp\Desktop\karma shop\assets\image\r6.jpg">
+          <div>
+          <h6 class="mx-3 mt-3 lace">BLACK LACE HEEL</h6>
+            <h6 class="text-dark mx-4">$189.00 <del><span class="text-info">$210.00</span></del></h6>
+            </div>
+        </div>
+        <div class="col-md-4 d-flex mt-3 p-0">
+          <img  src="C:\Users\hp\Desktop\karma shop\assets\image\r7.jpg">
+          <div>
+          <h6 class="mx-3 mt-3 lace">BLACK LACE HEEL</h6>
+            <h6 class="text-dark mx-4">$189.00 <del><span class="text-info">$210.00</span></del></h6>
+            </div>
+        </div>
+        <div class="col-md-4 d-flex mt-3 p-0">
+          <img  src="C:\Users\hp\Desktop\karma shop\assets\image\r9.jpg">
+          <div>
+          <h6 class="mx-3 mt-3 lace">BLACK LACE HEEL</h6>
+            <h6 class="text-dark mx-4">$189.00 <del><span class="text-info">$210.00</span></del></h6>
+            </div>
+        </div>
+        <div class="col-md-4 d-flex mt-3 p-0">
+          <img  src="C:\Users\hp\Desktop\karma shop\assets\image\r10.jpg">
+          <div>
+          <h6 class="mx-3 mt-3 lace">BLACK LACE HEEL</h6>
+            <h6 class="text-dark mx-4">$189.00 <del><span class="text-info">$210.00</span></del></h6>
+            </div>
+        </div>
+        <div class="col-md-4 d-flex mt-3 p-0">
+          <img  src="C:\Users\hp\Desktop\karma shop\assets\image\r11.jpg">
+          <div>
+          <h6 class="mx-3 mt-3 lace">BLACK LACE HEEL</h6>
+            <h6 class="text-dark mx-4">$189.00 <del><span class="text-info">$210.00</span></del></h6>
+            </div>
+        </div>
+
+      </div>
+      <div class="col-md-3 mb">
+        <img class="img-fluid d-block mx-auto" src="C:\Users\hp\Desktop\karma shop\assets\image\c5 (1).jpg">
+      </div>
+      </div>
+  </div>
+
+     <div class="container-fluid mt-5 p-0 overflow-hidden">
+      <div class="row p-0">
+        <div class="background row p-0">
+          <div class="col-md-3 col-lg-3 mt-5 pt-5 ba">
+            <div class="text-white ml-5 pl-4 da">
+              <h4 class="us">About Us</h4>
+            <p class="co">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+               sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-3 mt-5 pt-5 sa">
+            <div class="text-white ml-5 pl-4 sb">
+              <h4 class="us">Newsletter</h4>
+            <p class="co">Stay update with our latest</p>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+          </div>
+          <div class="col-md-3  col-lg-3 mt-5 pt-5 wa">
+            <div class="row text-white">
+              <div class="col-md-12 na">
+                <h4>Instragram Feed</h4>
+              </div>
+              <ul class="d-flex m-0 p-0 ml-2 vv">
+                <li class="padding"><img src="C:\Users\hp\Desktop\karma shop\assets\image\i1.jpg"></li>
+                <li class="padding"><img src="C:\Users\hp\Desktop\karma shop\assets\image\i2.jpg"></li>
+                <li class="padding"><img src="C:\Users\hp\Desktop\karma shop\assets\image\i3.jpg"></li>
+                <li class="padding"><img src="C:\Users\hp\Desktop\karma shop\assets\image\i4.jpg"></li>
+              </ul>
+              <ul class="d-flex m-0 p-0 ml-2 vv">
+                <li class="padding"><img src="C:\Users\hp\Desktop\karma shop\assets\image\i5.jpg"></li>
+                <li class="padding"><img src="C:\Users\hp\Desktop\karma shop\assets\image\i6.jpg"></li>
+                <li class="padding"><img src="C:\Users\hp\Desktop\karma shop\assets\image\i7.jpg"></li>
+                <li class="padding"><img src="C:\Users\hp\Desktop\karma shop\assets\image\i8.jpg"></li>
+              </ul>
+
+           
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-3 mt-5 pt-5 ma">
+            <div class="text-white ml-5 pl-4 mm">
+              <h4> Follow Us</h4>
+            <p class="co">Let us be social</p>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-whatsapp"></i>
+            </div>
+          </div>
+
+          <div class="col-md-12 bbb p-0 m-0">
+            <h6 class="text-light text-center">Copyright ©2022 All rights reserved | This template is made with by <span style="color:#ff6d00">Vishwakant yadav</span></h6>
+          </div>
+
+
+        </div>
+      </div>
+     </div>
+
+  
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/js/js.js"></script>
+    <script>
+      $('#bs4-slide-carousel').carousel({
+        interval: 3000
+      })
+      </script>
+  </body>
+</html> 
