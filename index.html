@@ -18,36 +18,9 @@
     position: relative;
     animation: spin 1.2s linear infinite;
 }
-.loader::after,
-.loader::before{
-    position: absolute;
-    content: '';
-    width: 14px;
-    height: 14px;
-    border-radius: 14px;
-    box-shadow: 18px 18px red, -18px -18px blue;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    animation: load 1.2s linear infinite;
 
-}
-.loader::after{
-    box-shadow: 18px 18px green, -18px -18px black;
-    transform: translate(-50%, -50%) rotate(90deg);
-
-}
-@keyframes load{
-    50%{height: 46px;
-    }
-}
-@keyframes spin{
-    100%{transform: rotate(360deg);
-    }
-}
   </style>
   <body>
-    <div class="loader"></div>
     <div id="myModal" class="modal fade" role="dialog">
       <div class="modal-dialog">
         <!-- Modal content-->
@@ -71,7 +44,7 @@
     <nav class="navbar navbar-expand-md navbar-dark bg-light ">
 
     <a class="navbar-brand" href="#">
-      <img class="logo horizontal-logo" src="assets\image\karma.jpeg" alt="forecastr logo">
+      <img class="logo horizontal-logo" src="karma.jpeg" alt="forecastr logo">
     </a>
     <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
