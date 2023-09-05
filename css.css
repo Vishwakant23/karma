@@ -221,7 +221,7 @@ body {
                   margin-left: 26px;
                 } */
                 .back{
-                  background-image: url('../image/exclusive.jpg');
+                  background-image: url('exclusive.jpg');
                   height: 700px;
                   width: 100%;
                   background-position: 45%;
